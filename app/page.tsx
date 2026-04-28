@@ -11,9 +11,8 @@ import { Badge } from "@/components/ui/badge";
 export default function Home() {
   return (
     <main className="w-full max-w-7xl mx-auto flex flex-col px-4 sm:px-6 lg:px-0">
-      <header className="py-6">
+      <header className="pb-6 lg:py-6">
         <div className="grid grid-cols-1 lg:grid-cols-4 text-sm">
-          {/* PORTFOLIO */}
           <div className="flex items-center justify-between lg:block py-4 border-b lg:border-b-0 lg:pl-4">
             <div className="space-y-1">
               <p className="text-xs opacity-75">portfolio</p>
@@ -29,7 +28,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* GITHUB */}
           <div className="space-y-1 py-4 border-b lg:border-b-0 lg:border-l lg:pl-4">
             <p className="text-xs opacity-75">github</p>
             <a
@@ -42,7 +40,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* CONTACT */}
           <div className="space-y-1 py-4 border-b lg:border-b-0 lg:border-l lg:pl-4">
             <p className="text-xs opacity-75">contact</p>
             <a
@@ -53,7 +50,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* LOCATION */}
           <div className="flex justify-between py-4 border-b lg:border-b-0 lg:border-l lg:pl-4">
             <div className="space-y-1">
               <p className="text-xs opacity-75">location</p>
@@ -108,22 +104,23 @@ export default function Home() {
                 <p className="text-muted-foreground">{project.description}</p>
                 {project.github && project.link && (
                   <div className="flex gap-2">
-                  {project.github && (
-                    <a href={project.github} target="_blank">
-                      <Badge variant="outline">
-                        github <ArrowUpRight className="w-4 h-4" />
-                      </Badge>
-                    </a>
-                  )}
+                    {project.github && (
+                      <a href={project.github} target="_blank">
+                        <Badge variant="outline">
+                          github <ArrowUpRight className="w-4 h-4" />
+                        </Badge>
+                      </a>
+                    )}
 
-                  {project.link && (
-                    <a href={project.link} target="_blank">
-                      <Badge variant="outline">
-                        app <ArrowUpRight className="w-4 h-4" />
-                      </Badge>
-                    </a>
-                  )}
-                </div>)}
+                    {project.link && (
+                      <a href={project.link} target="_blank">
+                        <Badge variant="outline">
+                          app <ArrowUpRight className="w-4 h-4" />
+                        </Badge>
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
             ))}
           </TabsContent>
