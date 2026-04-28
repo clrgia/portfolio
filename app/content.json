@@ -1,0 +1,85 @@
+{
+  "content": {
+    "aboutme": "I am a recently graduated fullstack web developer based in Paris. I completed my studies through work-study programs at major companies such as Orange, AXA, and BNP Paribas, where I contributed to the development of large-scale applications, working on both technical and functional aspects.\n\nThroughout my studies, I worked on numerous academic and personal projects, allowing me to broaden my skill set and explore a variety of languages and technologies.\n\nI have a strong interest in UI/UX and enjoy designing intuitive and user-friendly interfaces. Today, I am comfortable working with React, Next.js, and C#, which I use to build modern, high-performance, and user-centered applications.\n\nI am currently looking for an opportunity abroad, as I am eager to grow professionally while discovering new environments and cultures.",
+    "projects": [
+      {
+        "name": "windows live messenger",
+        "type": "personal",
+        "link": "https://wlm.vercel.app/",
+        "github": "https://github.com/clrgia/windows-live-messenger",
+        "description": "A reproduction of Windows Live Messenger, the famous instant messaging software, with an AI."
+      },
+      {
+        "name": "atlas food",
+        "type": "school",
+        "description": "An e-commerce platform to order food online, using OpenFoodApi."
+      },
+      {
+        "name": "midnight inquisition",
+        "type": "school",
+        "description": "A narrative game where you must investigate the mysterious death of the king."
+      },
+      {
+        "name": "spacebay",
+        "type": "school",
+        "description": "An e-commerce platform for the fictional sale of spaceships."
+      },
+      {
+        "name": "pokedex",
+        "type": "personal",
+        "link": "https://pokedex-fefkh02le-clara-garcia.vercel.app/",
+        "github": "https://github.com/clrgia/pokedex",
+        "description": "An interactive Pokédex to view Pokémon information using PokeAPI."
+      }
+    ],
+    "experience": [
+      {
+        "company": "BNP Paribas Asset Management",
+        "position": "Software Engineer Intern",
+        "duration": "2026 - Today",
+        "location": "FR"
+      },
+      {
+        "company": "AXA Investment Managers",
+        "position": "Software Engineer Intern",
+        "duration": "2025 - 2025",
+        "description": "Development of an application to manage equity portfolios while complying with investment constraints.",
+        "location": "FR"
+      },
+      {
+        "company": "Orange",
+        "position": "Software Engineer Intern",
+        "duration": "2023 - 2025",
+        "description": "Development of the Orange Pro store application within an Agile/Scrum/SAFe team. The application is built with Symfony (PHP) and Drupal, containerized with Docker, consuming partner microservices and using an HTML/CSS interface (Twig) and JavaScript.",
+        "location": "FR"
+      },
+      {
+        "company": "Orange",
+        "position": "IT Support Technician Intern",
+        "duration": "2021 - 2023",
+        "description": "Installation, integration and updating of new equipment, control and audit of workstation configuration, assistance and advice to users on peripheral security (backups, passwords) and data protection, management of IT assets, management of technical incidents and troubleshooting.",
+        "location": "FR"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Computer Science",
+        "institution": "Epitech Paris",
+        "duration": "2024 - 2026",
+        "location": "FR"
+      },
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "Epitech Paris",
+        "duration": "2023 - 2024",
+        "location": "FR"
+      },
+      {
+        "degree": "Computer Science Technical Diploma",
+        "institution": "CFA insta",
+        "duration": "2021 - 2023",
+        "location": "FR"
+      }
+    ]
+  }
+}
